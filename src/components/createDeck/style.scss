@@ -1,0 +1,33 @@
+#createDeckContainer {
+  width: 100vw;
+  height: 100dvh;
+  background-color: slategrey;
+}
+
+#cardWheel {
+  position: absolute;
+  width: 100vw;
+  height:fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#cardImporter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50vw;
+  height: 50vh;
+  translate: -50% -50%;
+  background-color: grey;
+
+  form {
+    textarea {
+      width: stretch;
+      resize: none;
+      margin: 10px;
+    }
+  }
+}

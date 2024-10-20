@@ -1,0 +1,19 @@
+#buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 80px;
+  }
+  button:hover {
+    color: #cccccc;
+    font-size: 75px;
+  }
+}
